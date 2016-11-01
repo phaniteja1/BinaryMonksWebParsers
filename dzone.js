@@ -45,14 +45,7 @@ module.exports = {
                     date: date
                 });
             });
-
-            // removing the last element from the array
-            // --> as it is empty
-            //dzoneJSON.pop();
-            //console.log(dzoneJSON);
-            //fs.writeFileSync('dzone.json', JSON.stringify(dzoneJSON), 'utf8');
             cb(dzoneJSON);
-
         });
     }
 }
